@@ -1,0 +1,8 @@
+file fd
+break *main
+run 56
+layout asm
+break *0x08048520
+c
+set $eax = 0
+c
